@@ -1,0 +1,3 @@
+D:/Programming/cpp/zero_var_first_kr/build/CMakeFiles/kr.dir
+D:/Programming/cpp/zero_var_first_kr/build/CMakeFiles/edit_cache.dir
+D:/Programming/cpp/zero_var_first_kr/build/CMakeFiles/rebuild_cache.dir
