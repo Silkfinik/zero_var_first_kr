@@ -15,7 +15,7 @@ int main() {
 
     // MagicCharacter mc3(std::move(mc1));
     // std::cout << mc1 << std::endl << mc3 << std::endl;
-    std::vector<Character*> characters;
+    std::vector<Person*> characters;
     characters.push_back(new Character("John", NORMAL, HUMAN, true, 10));
     characters.push_back(new MagicCharacter("Gandalf", NORMAL, ELF, true, 1, 100, 2, {WEAPON, ARMOR}));
     characters.push_back(new Character("Dwarf", NORMAL, DWORF, true, 10));

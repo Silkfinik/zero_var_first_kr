@@ -99,7 +99,8 @@ CMakeFiles/kr.dir/Character.cpp.obj: D:/Programming/cpp/zero_var_first_kr/Charac
   C:/msys64/mingw64/lib/clang/17/include/mm_malloc.h \
   C:/msys64/mingw64/lib/clang/17/include/stddef.h \
   C:/msys64/mingw64/lib/clang/17/include/vadefs.h \
-  D:/Programming/cpp/zero_var_first_kr/Character.h
+  D:/Programming/cpp/zero_var_first_kr/Character.h \
+  D:/Programming/cpp/zero_var_first_kr/Person.h
 
 CMakeFiles/kr.dir/MCharacter.cpp.obj: D:/Programming/cpp/zero_var_first_kr/MCharacter.cpp \
   C:/msys64/mingw64/include/_mingw.h \
@@ -211,7 +212,8 @@ CMakeFiles/kr.dir/MCharacter.cpp.obj: D:/Programming/cpp/zero_var_first_kr/MChar
   C:/msys64/mingw64/lib/clang/17/include/stddef.h \
   C:/msys64/mingw64/lib/clang/17/include/vadefs.h \
   D:/Programming/cpp/zero_var_first_kr/Character.h \
-  D:/Programming/cpp/zero_var_first_kr/Mcharacter.h
+  D:/Programming/cpp/zero_var_first_kr/Mcharacter.h \
+  D:/Programming/cpp/zero_var_first_kr/Person.h
 
 CMakeFiles/kr.dir/main.cpp.obj: D:/Programming/cpp/zero_var_first_kr/main.cpp \
   C:/msys64/mingw64/include/_mingw.h \
@@ -363,6 +365,7 @@ CMakeFiles/kr.dir/main.cpp.obj: D:/Programming/cpp/zero_var_first_kr/main.cpp \
   C:/msys64/mingw64/lib/clang/17/include/vadefs.h \
   D:/Programming/cpp/zero_var_first_kr/Character.h \
   D:/Programming/cpp/zero_var_first_kr/Mcharacter.h \
+  D:/Programming/cpp/zero_var_first_kr/Person.h \
   D:/Programming/cpp/zero_var_first_kr/funcs.cpp
 
 
@@ -377,6 +380,8 @@ C:/msys64/mingw64/include/c++/13.2.0/bits/stringfwd.h:
 C:/msys64/mingw64/include/c++/13.2.0/ext/atomicity.h:
 
 D:/Programming/cpp/zero_var_first_kr/Character.cpp:
+
+D:/Programming/cpp/zero_var_first_kr/Person.h:
 
 C:/msys64/mingw64/include/_mingw_secapi.h:
 

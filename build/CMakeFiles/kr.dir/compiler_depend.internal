@@ -101,6 +101,7 @@ CMakeFiles/kr.dir/Character.cpp.obj
  C:/msys64/mingw64/lib/clang/17/include/stddef.h
  C:/msys64/mingw64/lib/clang/17/include/vadefs.h
  D:/Programming/cpp/zero_var_first_kr/Character.h
+ D:/Programming/cpp/zero_var_first_kr/Person.h
 
 CMakeFiles/kr.dir/MCharacter.cpp.obj
  D:/Programming/cpp/zero_var_first_kr/MCharacter.cpp
@@ -214,6 +215,7 @@ CMakeFiles/kr.dir/MCharacter.cpp.obj
  C:/msys64/mingw64/lib/clang/17/include/vadefs.h
  D:/Programming/cpp/zero_var_first_kr/Character.h
  D:/Programming/cpp/zero_var_first_kr/Mcharacter.h
+ D:/Programming/cpp/zero_var_first_kr/Person.h
 
 CMakeFiles/kr.dir/main.cpp.obj
  D:/Programming/cpp/zero_var_first_kr/main.cpp
@@ -366,5 +368,6 @@ CMakeFiles/kr.dir/main.cpp.obj
  C:/msys64/mingw64/lib/clang/17/include/vadefs.h
  D:/Programming/cpp/zero_var_first_kr/Character.h
  D:/Programming/cpp/zero_var_first_kr/Mcharacter.h
+ D:/Programming/cpp/zero_var_first_kr/Person.h
  D:/Programming/cpp/zero_var_first_kr/funcs.cpp
 

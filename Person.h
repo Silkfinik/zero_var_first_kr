@@ -2,7 +2,8 @@
 #define PERSON_H
 
 class Person {
-    virtual ~Person() = 0;
+    public:
+    virtual ~Person() = default;
 };
 
 

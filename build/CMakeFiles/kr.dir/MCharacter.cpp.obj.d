@@ -107,4 +107,5 @@ CMakeFiles/kr.dir/MCharacter.cpp.obj: \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_vector.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_bvector.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/vector.tcc \
-  D:/Programming/cpp/zero_var_first_kr/Character.h
+  D:/Programming/cpp/zero_var_first_kr/Character.h \
+  D:/Programming/cpp/zero_var_first_kr/Person.h

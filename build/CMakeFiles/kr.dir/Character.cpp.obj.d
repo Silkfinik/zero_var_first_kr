@@ -1,6 +1,7 @@
 CMakeFiles/kr.dir/Character.cpp.obj: \
   D:/Programming/cpp/zero_var_first_kr/Character.cpp \
   D:/Programming/cpp/zero_var_first_kr/Character.h \
+  D:/Programming/cpp/zero_var_first_kr/Person.h \
   C:/msys64/mingw64/include/c++/13.2.0/string \
   C:/msys64/mingw64/include/c++/13.2.0/bits/requires_hosted.h \
   C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \

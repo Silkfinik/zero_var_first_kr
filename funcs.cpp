@@ -62,13 +62,20 @@ std::ostream& operator<<(std::ostream& os, const MagicCharacter& mcharacter) {
 }
 
 
-void printCharacters(std::vector<Character*> characters) {
+void printCharacters(std::vector<Person*> characters) {
     for (auto& character : characters) {
-        std::cout << *character << std::endl;
+        std::string type = typeid(*character).name();
+        type = type.substr(1);
+
+        if (type == "Character") {
+            std::cout << *dynamic_cast<Character*>(character) << std::endl;
+        } else {
+            std::cout << *dynamic_cast<MagicCharacter*>(character) << std::endl;
+        }
     }
 }
 
-void CharacterTypeAmount(std::vector<Character*> characters) {
+void CharacterTypeAmount(std::vector<Person*> characters) {
     __int16 Default = 0;
     __int16 Magic = 0;
 

@@ -2,6 +2,8 @@
 #define CHARACTER_H
 
 
+#include "Person.h"
+
 #include <string>
 
 enum Race {
@@ -16,7 +18,7 @@ enum Condition {
     DEAD
 };
 
-class Character {
+class Character : public Person{
     private:
         static __int16 idCounter;
     protected:
