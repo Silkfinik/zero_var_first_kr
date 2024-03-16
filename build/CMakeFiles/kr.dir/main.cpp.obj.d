@@ -138,6 +138,14 @@ CMakeFiles/kr.dir/main.cpp.obj: \
   C:/msys64/mingw64/include/c++/13.2.0/bits/ostream.tcc \
   C:/msys64/mingw64/include/c++/13.2.0/istream \
   C:/msys64/mingw64/include/c++/13.2.0/bits/istream.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/algorithm \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_algo.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/algorithmfwd.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_heap.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/uniform_int_dist.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_tempbuf.h \
+  C:/msys64/mingw64/include/c++/13.2.0/pstl/glue_algorithm_defs.h \
+  C:/msys64/mingw64/include/c++/13.2.0/pstl/execution_defs.h \
   D:/Programming/cpp/zero_var_first_kr/MCharacter.h \
   C:/msys64/mingw64/include/c++/13.2.0/vector \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_uninitialized.h \

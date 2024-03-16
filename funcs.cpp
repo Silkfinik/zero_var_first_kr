@@ -1,10 +1,11 @@
 #include <iostream>
 #include <typeinfo>
+#include <algorithm>
 
 #include "MCharacter.h"
 
 
-
+// перегрузка оператора вывода для класса Character
 std::ostream& operator<<(std::ostream& os, const Character& character) {
     os << "ID: " << character.getId() << "\n";
     os << "Name: " << character.getName() << "\n";
@@ -13,7 +14,7 @@ std::ostream& operator<<(std::ostream& os, const Character& character) {
     os << "Condition: " << cond_enum[character.getCondition()] << "\n";
     delete[] cond_enum;
     
-    std::string* race_enum = new std::string[3]{"Human", "Dworf", "Elf"};
+    std::string* race_enum = new std::string[3]{"Human", "DWARF", "Elf"};
     os << "Race: " << race_enum[character.getRace()] << "\n";
     delete[] race_enum;
     
@@ -23,6 +24,7 @@ std::ostream& operator<<(std::ostream& os, const Character& character) {
     return os;
 }
 
+// перегрузка оператора вывода для класса MagicCharacter
 std::ostream& operator<<(std::ostream& os, const MagicCharacter& mcharacter) {
     os << "ID: " << mcharacter.getId() << "\n";
     os << "Name: " << mcharacter.getName() << "\n";
@@ -31,7 +33,7 @@ std::ostream& operator<<(std::ostream& os, const MagicCharacter& mcharacter) {
     os << "Condition: " << cond_enum[mcharacter.getCondition()] << "\n";
     delete[] cond_enum;
 
-    std::string* race_enum = new std::string[3]{"Human", "Dworf", "Elf"};
+    std::string* race_enum = new std::string[3]{"Human", "DWARF", "Elf"};
     os << "Race: " << race_enum[mcharacter.getRace()] << "\n";
     delete[] race_enum;
     os << "Movable: " << (mcharacter.getIsMovable() ? "Yes" : "No") << "\n";
@@ -61,8 +63,8 @@ std::ostream& operator<<(std::ostream& os, const MagicCharacter& mcharacter) {
     return os;
 }
 
-
-void printCharacters(std::vector<Person*> characters) {
+// функция для вывода всех персонажей
+void printCharacters(std::vector<Character*> characters) {
     for (auto& character : characters) {
         std::string type = typeid(*character).name();
         type = type.substr(1);
@@ -75,7 +77,8 @@ void printCharacters(std::vector<Person*> characters) {
     }
 }
 
-void CharacterTypeAmount(std::vector<Person*> characters) {
+// функция для вывода количества персонажей каждого типа
+void CharacterTypeAmount(std::vector<Character*> characters) {
     __int16 Default = 0;
     __int16 Magic = 0;
 
@@ -92,4 +95,18 @@ void CharacterTypeAmount(std::vector<Person*> characters) {
 
     std::cout << "Default characters: " << Default << std::endl;
     std::cout << "Magic characters: " << Magic << std::endl;
+}
+
+// функция для сортировки персонажей по имени
+void sortByName(std::vector<Character*>& characters) {
+    std::sort(characters.begin(), characters.end(), [](Character* a, Character* b) {
+        return a->getName() < b->getName();
+    });
+}
+
+// функция для удаления всех персонажей
+void deleteCharacters(std::vector<Character*>& characters) {
+    for (auto& character : characters) {
+        delete character;
+    }
 }
